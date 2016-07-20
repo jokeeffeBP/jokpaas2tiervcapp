@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_VS2015_adminPassword": {
+            "value": "P@ssw0rd7Gh^s5"
+        },
+        "availabilitySets_JOK_PaaS_2Tier_VC_AVS_name": {
+            "value": "JOK-PaaS-2Tier-VC-2-AVS"
+        },
+        "virtualMachines_VS2015_name": {
+            "value": "VS2015"
+        },
+        "components_jok_paas_2tier_vc_wa_name": {
+            "value": "JOK-PaaS-2Tier-VC-2-WA"
+        },
+        "networkInterfaces_vs2015538_name": {
+            "value": "VS2015-NIC"
+        },
+        "networkSecurityGroups_VS2015_NSG_name": {
+            "value": "VS2015-NSG"
+        },
+        "publicIPAddresses_VS2015_IP_name": {
+            "value": "VS2015-IP"
+        },
+        "virtualNetworks_JOK_PaaS_2Tier_VC_VNET_name": {
+            "value": "JOK-PaaS-2Tier-VC-2-VNET"
+        },
+        "servers_jokpaas2tiervcdbs_name": {
+            "value": "jokpaas2tiervc2dbs"
+        },
+        "storageAccounts_jokpaas2tiervcsa_name": {
+            "value": "jokpaas2tiervc2sa"
+        },
+        "serverfarms_JOK_PaaS_2Tier_VC_ASP_name": {
+            "value": "JOK-PaaS-2Tier-VC-2-ASP"
+        },
+        "sites_JOK_PaaS_2Tier_VC_WA_name": {
+            "value": "JOK-PaaS-2Tier-VC-2-WA"
+        },
+        "databases_JOK_PaaS=2Tier_VC_DB_name": {
+            "value": "jokpaas2tiervc2dbs/JOK-PaaS-2Tier-VC-2-DB"
+        },
+        "databases_master_name": {
+            "value": "jokpaas2tiervc2dbs/master"
+        },
+        "firewallRules_AllowAllWindowsAzureIps_name": {
+            "value": "jokpaas2tiervc2dbs/AllowAllWindowsAzureIps"
+        },
+        "sqlAdminPassword": {
+            "value": "P@ssw0rd7Gh^s5"
+        },
+        "webAppHostName": {
+            "value": "jok-paas-2tier-vc2-wa.azurewebsites.net"
+        },
+        "scmWebAppHostName": {
+            "value": "jok-paas-2tier-vc2-wa.scm.azurewebsites.net"
+        }
+    }
+}
